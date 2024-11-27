@@ -2,13 +2,13 @@ $.fn.elExists = function() {
     return this.length > 0;
 };
 
-var myCenter=new google.maps.LatLng(52.477564,-2.0037156);
+var myCenter=new google.maps.LatLng(-16.538421570153286, -68.08036679274528);
     function initialize()
     {
         var mapProp = {
             center:myCenter,
             scrollwheel: false,
-            zoom: 12,
+            zoom: 19,
             mapTypeId:google.maps.MapTypeId.ROADMAP
         };
         var map=new google.maps.Map(document.getElementById("google-map"),mapProp);

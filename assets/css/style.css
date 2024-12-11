@@ -25,6 +25,20 @@ Table of content
 22. footer
 -------------------------------------------------------------------*/
 /*------ Typography Style Start ------*/
+#antecedentes,
+#planificacion,
+#arbol-problemas,
+#formulacion,
+#proposito,
+#metodologia,
+#planificacion-actividades,
+#declaracion-propositos,
+#diagrama-contexto,
+#lista-acontecimiento,
+#entidad-relacion {
+  scroll-margin-top: 150px; /* Ajusta este valor según la altura de tu encabezado fijo */
+}
+
 body {
   color: #555555;
   line-height: 1.7;
